@@ -7,7 +7,7 @@ const i18n = require('i18next');
 const sprintf = require('i18next-sprintf-postprocessor');
 
 const ANSWER_COUNT = 4;
-const GAME_LENGTH = 5;
+const GAME_LENGTH = 10;
 
 function populateGameQuestions(translatedQuestions) {
   const gameQuestions = [];
@@ -246,7 +246,7 @@ const languageString = {
       HELP_UNHANDLED: 'Say yes to continue, or no to end the game.',
       START_UNHANDLED: 'Say start to start a new game.',
       NEW_GAME_MESSAGE: 'Welcome to %s. ',
-      WELCOME_MESSAGE: 'I will ask you %s questions, try to get as many right as you can. Just say the number of the answer. Let\'s begin. ',
+      WELCOME_MESSAGE: 'I will ask you %s scrumdiddlyumptious Roald Dahl questions, try to get as many right as you can. Just say the number of the answer. Let\'s begin. ',
       ANSWER_CORRECT_MESSAGE: 'correct. ',
       ANSWER_WRONG_MESSAGE: 'wrong. ',
       CORRECT_ANSWER_MESSAGE: 'The correct answer is %s: %s. ',

@@ -79,11 +79,83 @@ module.exports = {
       ],
     },
     {
-      'Complete the last line of Danny the Champion of the World: what a child wants and needs is a parent who is?': [
+      'Complete the last line of Danny the Champion of the World - what a child wants and needs is a parent who is?': [
         'Sparky',
         'Clever',
         'Loving',
         'Strict',
+      ],
+    },
+    {
+      'In Charlie and the Great Glass Elevator, why does Mr. Wonka let the Elevator go into orbit?': [
+        'Grandma Josephine grabs him',
+        'He forgets to push the button',
+        'To see the Space Hotel',
+        'For the fun of it',
+      ],
+    },
+    {
+      'In Charlie and the Great Glass Elevator, what was Miss Tibbs job before becoming Vice President?': [
+        'Nanny',
+        'Army General',
+        'School teacher',
+        'Spy',
+      ],
+    },
+    {
+      'In Charlie and the Great Glass Elevator, what is President Gilligrasses latest invention?': [
+        'Fly Trap',
+        'Right Handed Corkscrew',
+        'Budget Balancer',
+        'Gravity Machine',
+      ],
+    },
+    {
+      'In Charlie and the Great Glass Elevator, how many Vermicious <phoneme alphabet="ipa" ph="kəˈnɪds">Knids</phoneme> do Charlie and Mr. Wonka see in elevators in the Space Hotel?': [
+        '5',
+        '8',
+        '25',
+        'Hundreds',
+      ],
+    },
+    {
+      'In Charlie and the Great Glass Elevator, how does Mr. Wonka rescue the Transport Capsule?': [
+        'He tows the Capsule back to earth',
+        'He pulls the <phoneme alphabet="ipa" ph="kəˈnɪds">Knids</phoneme> off',
+        'He shoots the <phoneme alphabet="ipa" ph="kəˈnɪds">Knids</phoneme>',
+        'He lures the <phoneme alphabet="ipa" ph="kəˈnɪds">Knids</phoneme> away',
+      ],
+    },
+    {
+      'In Charlie and the Great Glass Elevator, what wonder drug makes you twenty years younger?': [
+        'Wonka-Vite',
+        'Vita-Wonk',
+        'Wonka-Vegemite',
+        'Vega-Wonka-Mite',
+      ],
+    },
+    {
+      'In Charlie and the Great Glass Elevator, which Grandparent becomes a minus?': [
+        'Grandma Georgina',
+        'Grandpa Joe',
+        'Grandma Josephine',
+        'Grandpa George',
+      ],
+    },
+    {
+      'In Charlie and the Great Glass Elevator, what monsters live in Minusland?': [
+        'Gnoolies',
+        'Poozas',
+        'Snozzwangers',
+        'Vermicious <phoneme alphabet="ipa" ph="kəˈnɪds">Knids</phoneme>',
+      ],
+    },
+    {
+      'Where is the family going at the end of Charlie and the Great Glass Elevator?': [
+        'The White House',
+        'Their cottage',
+        'The Chocolate Factory',
+        'Space Hotel U.S.A.',
       ],
     },
   ],
