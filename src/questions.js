@@ -302,5 +302,141 @@ module.exports = {
         'The United States',
       ],
     },
+    {
+      'In Charlie and the Chocolate Factory, where does the Bucket family live?': [
+        'We don\'t know',
+        'Chicago',
+        'London',
+        'New York',
+      ],
+    },
+    {
+      'In Charlie and the Chocolate Factory, where does Mr. Bucket work?': [
+        'A toothpaste factory',
+        'Charlie\'s school',
+        'A newspaper shop',
+        'A laundry',
+      ],
+    },
+    {
+      'In Charlie and the Chocolate Factory, which is NOT a Wonka invention?': [
+        'Every Flavour Beans',
+        'Hot ice cubes',
+        'Candy balloons',
+        'Invisible lollies',
+      ],
+    },
+    {
+      'In Charlie and the Chocolate Factory, who is the second child to leave the group in the factory?': [
+        'Violet Beauregarde',
+        'Mike Teevee',
+        'Veruca Salt',
+        'Augustus Gloop',
+      ],
+    },
+    {
+      'In Charlie and the Chocolate Factory, who once bit off her own tongue in her sleep, according to the Oompa-Loompas?': [
+        'Miss Bigelow',
+        'Goldie Pinklesweet',
+        'Mrs. Tiggy-Winkle',
+        'Miss Cornelia Prinzmetal',
+      ],
+    },
+    {
+      'In Charlie and the Chocolate Factory, how does Charlie get down from the ceiling after he and Grandpa Joe steal the fizzy-lifting drinks?': [
+        'They don\'t steal them',
+        'Burp',
+        'Yell for help',
+        'Grandpa Joe pulls him down',
+      ],
+    },
+    {
+      'In Charlie and the Chocolate Factory, which button has Mr. Wonka always longed to push in the Great Glass Elevator?': [
+        'Up and Out',
+        'Television Chocolate',
+        'Through the Roof',
+        'Retro Rockets',
+      ],
+    },
+    {
+      'In The BFG, what time of night does Sophie first see the BFG?': [
+        'The Witching Hour',
+        'The Creepy Hour',
+        'The Dead of Night',
+        'The Mysterious Moment',
+      ],
+    },
+    {
+      'In The BFG, what kind of shoes did the BFG wear?': [
+        'Sandals with holes',
+        'Leather boots',
+        'Running shoes',
+        'He\'s barefoot',
+      ],
+    },
+    {
+      'In The BFG, what is the only country that the people-eating Giants do not visit?': [
+        'Greece',
+        'Turkey',
+        'Japan',
+        'Wales',
+      ],
+    },
+    {
+      'In The BFG, what is the BFG\'s secret heart\'s desire?': [
+        'An elephant',
+        'To meet the Queen',
+        'A high-tech dream factory',
+        'A garden of peachy fruits',
+      ],
+    },
+    {
+      'In The BFG, where does Sophie hide from the Bloodbottler?': [
+        'Inside the snozzcumber',
+        'In the BFG\'s pocket',
+        'Behind a dream jar',
+        'In the BFG\'s ear',
+      ],
+    },
+    {
+      'In The BFG, which of these was NOT one of the people-eating giants?': [
+        'The Meatmasher',
+        'The Manhugger',
+        'The Childchewer',
+        'The Butcher Boy',
+      ],
+    },
+    {
+      'In The BFG, what is the Fleshlumpeater\'s nightmare about?': [
+        'Jack the Giant Killer',
+        'Eating human beans',
+        'Loathsome snozzcumbers',
+        'A Venomous Vindscreen Viper',
+      ],
+    },
+    {
+      'In The BFG, who do Sophie and the BFG ask for help?': [
+        'The Queen of England',
+        'The President of the United States of America',
+        'The United Nations',
+        'Jack the Giant Killer',
+      ],
+    },
+    {
+      'In The BFG, how are the Giants transported out of Giant Country?': [
+        'Lifted by helicopter',
+        'On enormous trucks',
+        'The BFG carries them',
+        'Dragged behind tanks',
+      ],
+    },
+    {
+      'In The BFG, who is revealed at the end of the story to be the author of the book you\'ve just finished reading?': [
+        'The BFG',
+        'Sophie',
+        'Roald Dahl',
+        'The Royal Biographer',
+      ],
+    },
   ],
 };
