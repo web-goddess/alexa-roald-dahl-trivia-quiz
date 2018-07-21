@@ -11,7 +11,11 @@
     "skill",
     "trivia"
   ],
-  "author": "Amazon.com",
+  "author": "Kris Howard",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/web-goddess/alexa-roald-dahl-trivia-quiz.git"
+  },
   "license": "SEE LICENSE IN LICENSE.TXT",
   "dependencies": {
     "ask-sdk": "^2.0.0",
