@@ -23,7 +23,7 @@ else
 fi
 
 cp -r node_modules dist
-cp -r src/$lambda/. dist
+cp -r src/. dist
 
 echo "removing old zip"
 rm -rf dist.zip
