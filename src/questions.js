@@ -26,7 +26,7 @@ module.exports = {
       'In Danny the Champion of the World, what is the most important discovery in the history of pheasant poaching?': [
         'They are crazy about raisins',
         'They\'re just like chickens',
-        'They dont move when their eyes are covered',
+        'They don\'t move when their eyes are covered',
         'They roost in trees',
       ],
     },
@@ -159,7 +159,7 @@ module.exports = {
       ],
     },
     {
-      'In Matilda, what was the first grown-up book that Matilda read?': [
+      'In Matilda, what was the first grown-up book that Matilda <phoneme alphabet="ipa" ph="ˈrɛd">read</phoneme>?': [
         'Great Expectations',
         'Just So Stories',
         'The Red Pony',
