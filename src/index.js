@@ -118,11 +118,25 @@ function handleUserGuess(userGaveUp, handlerInput) {
   // Check if we can exit the game session after GAME_LENGTH questions (zero-indexed)
   if (sessionAttributes.currentQuestionIndex === GAME_LENGTH - 1) {
     speechOutput = userGaveUp ? '' : requestAttributes.t('ANSWER_IS_MESSAGE');
-    speechOutput += speechOutputAnalysis + requestAttributes.t(
-      'GAME_OVER_MESSAGE',
-      currentScore.toString(),
-      GAME_LENGTH.toString()
-    );
+    if (currentScore == GAME_LENGTH) {
+      speechOutput += speechOutputAnalysis + requestAttributes.t(
+        'GAME_OVER_MESSAGE_PERFECT',
+        currentScore.toString(),
+        GAME_LENGTH.toString()
+      );
+    } elseif (currentScore > (.6 * GAME_LENGTH)) {
+      speechOutput += speechOutputAnalysis + requestAttributes.t(
+        'GAME_OVER_MESSAGE_ALMOST',
+        currentScore.toString(),
+        GAME_LENGTH.toString()
+      );
+    } else {
+      speechOutput += speechOutputAnalysis + requestAttributes.t(
+        'GAME_OVER_MESSAGE_SORRY',
+        currentScore.toString(),
+        GAME_LENGTH.toString()
+      );
+    }
 
     return responseBuilder
       .speak(speechOutput)
@@ -252,7 +266,9 @@ const languageString = {
       CORRECT_ANSWER_MESSAGE: 'The correct answer is %s: %s. ',
       ANSWER_IS_MESSAGE: 'That answer is ',
       TELL_QUESTION_MESSAGE: 'Question %s. %s ',
-      GAME_OVER_MESSAGE: 'You got %s out of %s questions correct. Thank you for playing!',
+      GAME_OVER_MESSAGE_PERFECT: 'You got all %s questions correct! You are truly a Roald Dahl expert. Thanks for playing!',
+      GAME_OVER_MESSAGE_ALMOST: 'You got %s out of %s questions correct. Keep practicing and you\'ll be a Dahl expert very soon. Thank you for playing!',
+      GAME_OVER_MESSAGE_SORRY: 'You got %s out of %s questions correct. Oh dear, I think you need to re-read some of Roald Dahl\'s books! Thank you for playing!',
       SCORE_IS_MESSAGE: 'Your score is %s. '
     },
   },
